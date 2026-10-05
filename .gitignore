@@ -1,0 +1,15 @@
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local env
+.env
+.env.local

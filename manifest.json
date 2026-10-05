@@ -1,0 +1,261 @@
+{
+  "name": "cloud-devops-skills",
+  "version": "1.0.0",
+  "description": "Curated Cloud, DevOps, SRE, and Infrastructure skills trimmed and optimized from ECC for Antigravity, Claude Code, and agentic workflows.",
+  "categories": [
+    "Containers & Orchestration",
+    "CI/CD & Deployment Strategies",
+    "Cloud & Infrastructure Security",
+    "Networking, Homelab & Systems",
+    "Observability, Reliability & SRE",
+    "Database & Persistence Operations",
+    "Verification & Testing Gates"
+  ],
+  "skills": [
+    {
+      "id": "automation-audit-ops",
+      "name": "automation-audit-ops",
+      "category": "Verification & Testing Gates",
+      "description": "Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.",
+      "path": "skills/automation-audit-ops/SKILL.md"
+    },
+    {
+      "id": "canary-watch",
+      "name": "canary-watch",
+      "category": "CI/CD & Deployment Strategies",
+      "description": "Use this skill to monitor and verify a deployed URL after releases \u2014 checks HTTP endpoints, SSE streams, static assets, console errors, and performance regressions after deploys, merges, or dependency upgrades. Smoke / canary / post-deploy verification.",
+      "path": "skills/canary-watch/SKILL.md"
+    },
+    {
+      "id": "cisco-ios-patterns",
+      "name": "cisco-ios-patterns",
+      "category": "Networking, Homelab & Systems",
+      "description": "Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. Use when reading, writing, or reviewing Cisco IOS / IOS-XE configuration or planning a change window.",
+      "path": "skills/cisco-ios-patterns/SKILL.md"
+    },
+    {
+      "id": "cloud-infrastructure-security",
+      "name": "cloud-infrastructure-security",
+      "category": "Cloud & Infrastructure Security",
+      "description": "Cloud security checklist for AWS, Cloudflare, IAM least-privilege, CI/CD pipelines, secret management, and Infrastructure as Code. Use when deploying to cloud platforms, configuring cloud infrastructure, managing IAM policies, setting up logging/monitoring, or auditing cloud environments.",
+      "path": "skills/cloud-infrastructure-security/SKILL.md"
+    },
+    {
+      "id": "dashboard-builder",
+      "name": "dashboard-builder",
+      "category": "Observability, Reliability & SRE",
+      "description": "Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.",
+      "path": "skills/dashboard-builder/SKILL.md"
+    },
+    {
+      "id": "database-migrations",
+      "name": "database-migrations",
+      "category": "Database & Persistence Operations",
+      "description": "Safe, reversible database migration patterns: forward-only production changes, expand-contract zero-downtime renames, concurrent indexes, batched backfills, and per-tool workflows for PostgreSQL, Prisma, Drizzle, Kysely, Django, and golang-migrate. Use when writing a schema or data migration, adding a column or index to a large table, planning a rollback, or preparing a zero-downtime deploy.",
+      "path": "skills/database-migrations/SKILL.md"
+    },
+    {
+      "id": "deployment-patterns",
+      "name": "deployment-patterns",
+      "category": "CI/CD & Deployment Strategies",
+      "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up CI/CD, containerizing an app, or checking production readiness before a release.",
+      "path": "skills/deployment-patterns/SKILL.md"
+    },
+    {
+      "id": "docker-patterns",
+      "name": "docker-patterns",
+      "category": "Containers & Orchestration",
+      "description": "Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creating or reviewing Dockerfiles and Compose services, testing installers across Linux distributions, or planning accurate native macOS and Windows validation.",
+      "path": "skills/docker-patterns/SKILL.md"
+    },
+    {
+      "id": "e2e-testing",
+      "name": "e2e-testing",
+      "category": "Verification & Testing Gates",
+      "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring page objects, or fixing flaky E2E runs in CI.",
+      "path": "skills/e2e-testing/SKILL.md"
+    },
+    {
+      "id": "enterprise-agent-ops",
+      "name": "enterprise-agent-ops",
+      "category": "Observability, Reliability & SRE",
+      "description": "Operational controls for long-lived or cloud-hosted agent systems \u2014 runtime lifecycle (start, pause, stop, restart), observability (logs, metrics, traces), least-privilege safety scopes and kill switches, and rollout/rollback change management with audit logs and success/cost metrics. Use when running production agent fleets on PM2, systemd, or containers that need monitoring, incident response, or deployment gates.",
+      "path": "skills/enterprise-agent-ops/SKILL.md"
+    },
+    {
+      "id": "error-handling",
+      "name": "error-handling",
+      "category": "Observability, Reliability & SRE",
+      "description": "Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages. Use when designing error types, retries, circuit breakers, or user-facing failure messages in TypeScript, Python, or Go.",
+      "path": "skills/error-handling/SKILL.md"
+    },
+    {
+      "id": "flox-environments",
+      "name": "flox-environments",
+      "category": "Networking, Homelab & Systems",
+      "description": "Create reproducible, cross-platform (macOS/Linux) development environments with Flox, a declarative Nix-based environment manager. Use when setting up project toolchains, installing system-level dependencies (compilers, databases, native libs), pinning exact package versions for a team, onboarding developers, running local services (PostgreSQL, Redis, Kafka), or solving 'works on my machine' problems \u2014 including agent/vibe-coding setups that need project-scoped tools without sudo. Also use when the user mentions .flox/, manifest.toml, flox activate, or FloxHub.",
+      "path": "skills/flox-environments/SKILL.md"
+    },
+    {
+      "id": "git-workflow",
+      "name": "git-workflow",
+      "category": "CI/CD & Deployment Strategies",
+      "description": "Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes. Use when choosing a branching strategy, writing commit conventions, cleaning up history before a pull request, deciding merge versus rebase, or resolving conflicts.",
+      "path": "skills/git-workflow/SKILL.md"
+    },
+    {
+      "id": "github-ops",
+      "name": "github-ops",
+      "category": "CI/CD & Deployment Strategies",
+      "description": "GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user wants to manage GitHub issues, PRs, CI status, releases, contributors, stale items, or any GitHub operational task beyond simple git commands.",
+      "path": "skills/github-ops/SKILL.md"
+    },
+    {
+      "id": "homelab-network-readiness",
+      "name": "homelab-network-readiness",
+      "category": "Networking, Homelab & Systems",
+      "description": "Readiness checklist for homelab VLAN segmentation, local DNS filtering (Pi-hole, AdGuard Home), and WireGuard-style remote access. Use when planning or reviewing home network changes \u2014 splitting a flat network into trusted, IoT, guest, or management VLANs, moving DHCP to a local resolver, or adding VPN access \u2014 before changing router, firewall, DHCP, or VPN configuration.",
+      "path": "skills/homelab-network-readiness/SKILL.md"
+    },
+    {
+      "id": "homelab-network-setup",
+      "name": "homelab-network-setup",
+      "category": "Networking, Homelab & Systems",
+      "description": "Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes. Use when planning or fixing a home or homelab network \u2014 gateway, switch, AP, IP ranges, DHCP, DNS, or cabling.",
+      "path": "skills/homelab-network-setup/SKILL.md"
+    },
+    {
+      "id": "homelab-pihole-dns",
+      "name": "homelab-pihole-dns",
+      "category": "Networking, Homelab & Systems",
+      "description": "Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS records, and troubleshooting broken DNS resolution on a home network. Use when the task explicitly involves Pi-hole \u2014 installing it, managing blocklists, configuring DoH or DHCP, adding local DNS records, or diagnosing DNS resolution with Pi-hole in the path.",
+      "path": "skills/homelab-pihole-dns/SKILL.md"
+    },
+    {
+      "id": "homelab-vlan-segmentation",
+      "name": "homelab-vlan-segmentation",
+      "category": "Networking, Homelab & Systems",
+      "description": "Segmenting home networks into VLANs for IoT, guest, trusted, and server traffic using UniFi, pfSense/OPNsense, and MikroTik \u2014 including switch trunk config, firewall rules, and wireless SSID mapping. Use when splitting a home network into IoT, guest, trusted, and server VLANs on UniFi, pfSense/OPNsense, or MikroTik.",
+      "path": "skills/homelab-vlan-segmentation/SKILL.md"
+    },
+    {
+      "id": "homelab-wireguard-vpn",
+      "name": "homelab-wireguard-vpn",
+      "category": "Networking, Homelab & Systems",
+      "description": "WireGuard VPN server setup, peer configuration, key generation, split tunneling vs full tunnel routing, and remote access to a home network from mobile and laptop clients. Use when setting up WireGuard for remote access to a home network, or deciding between split and full tunnel routing.",
+      "path": "skills/homelab-wireguard-vpn/SKILL.md"
+    },
+    {
+      "id": "kubernetes-patterns",
+      "name": "kubernetes-patterns",
+      "category": "Containers & Orchestration",
+      "description": "Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when writing or reviewing Kubernetes manifests, or debugging probes, RBAC, autoscaling, or resource limits.",
+      "path": "skills/kubernetes-patterns/SKILL.md"
+    },
+    {
+      "id": "latency-critical-systems",
+      "name": "latency-critical-systems",
+      "category": "Observability, Reliability & SRE",
+      "description": "Optimize and verify latency-sensitive systems \u2014 realtime dashboards, market data feeds, streaming agents, execution gateways, queues, and caches \u2014 by tracking p50/p95/p99 latency, freshness age, and queue depth, mapping hot paths, and running live readbacks. Use when p95 latency, throughput, or data freshness matters.",
+      "path": "skills/latency-critical-systems/SKILL.md"
+    },
+    {
+      "id": "netmiko-ssh-automation",
+      "name": "netmiko-ssh-automation",
+      "category": "Networking, Homelab & Systems",
+      "description": "Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. Use when automating network device access with Python Netmiko, whether collecting state or pushing guarded config changes.",
+      "path": "skills/netmiko-ssh-automation/SKILL.md"
+    },
+    {
+      "id": "network-bgp-diagnostics",
+      "name": "network-bgp-diagnostics",
+      "category": "Networking, Homelab & Systems",
+      "description": "Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspection, and safe evidence collection. Use when a BGP neighbor is down, routes are missing, or prefix policy and AS path need inspection.",
+      "path": "skills/network-bgp-diagnostics/SKILL.md"
+    },
+    {
+      "id": "network-config-validation",
+      "name": "network-config-validation",
+      "category": "Networking, Homelab & Systems",
+      "description": "Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene. Use when reviewing a router or switch configuration before deployment.",
+      "path": "skills/network-config-validation/SKILL.md"
+    },
+    {
+      "id": "network-interface-health",
+      "name": "network-interface-health",
+      "category": "Networking, Homelab & Systems",
+      "description": "Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. Use when an interface shows errors, drops, CRCs, flapping, or a duplex or speed mismatch.",
+      "path": "skills/network-interface-health/SKILL.md"
+    },
+    {
+      "id": "postgres-patterns",
+      "name": "postgres-patterns",
+      "category": "Database & Persistence Operations",
+      "description": "PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL schemas, indexes, or RLS policies, or when a query is too slow.",
+      "path": "skills/postgres-patterns/SKILL.md"
+    },
+    {
+      "id": "production-audit",
+      "name": "production-audit",
+      "category": "Observability, Reliability & SRE",
+      "description": "Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and \"what breaks in prod?\" questions without sending repo data to an external audit service. Use when auditing production readiness before launch, after a merge, or when asked what breaks in prod.",
+      "path": "skills/production-audit/SKILL.md"
+    },
+    {
+      "id": "redis-patterns",
+      "name": "redis-patterns",
+      "category": "Database & Persistence Operations",
+      "description": "Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub, and connection management for production applications. Use when adding caching, a distributed lock, rate limiting, or pub/sub with Redis, or when key design needs review.",
+      "path": "skills/redis-patterns/SKILL.md"
+    },
+    {
+      "id": "safety-guard",
+      "name": "safety-guard",
+      "category": "Cloud & Infrastructure Security",
+      "description": "Guard against destructive operations with three modes: Careful intercepts dangerous commands (rm -rf, git push --force, DROP TABLE) for confirmation, Freeze locks writes to one directory, and Guard combines both via PreToolUse hooks. Use when working on production systems, running agents autonomously, restricting edits to a directory, or during migrations, deploys, and data changes.",
+      "path": "skills/safety-guard/SKILL.md"
+    },
+    {
+      "id": "security-review",
+      "name": "security-review",
+      "category": "Cloud & Infrastructure Security",
+      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+      "path": "skills/security-review/SKILL.md"
+    },
+    {
+      "id": "security-scan",
+      "name": "security-scan",
+      "category": "Cloud & Infrastructure Security",
+      "description": "Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent definitions. Use when auditing a .claude/ directory \u2014 CLAUDE.md, settings.json, MCP servers, hooks, or agent definitions.",
+      "path": "skills/security-scan/SKILL.md"
+    },
+    {
+      "id": "terminal-opener",
+      "name": "terminal-opener",
+      "category": "Networking, Homelab & Systems",
+      "description": "Open an executable and its argument array in a visible terminal window through a reusable, shell-free launch plan with dry-run, JSON, capability detection, detached fallback, and standalone recovery modes. Use when Codex needs to open an interactive CLI, SSH session, local development process, sandbox, or other argv-based command in a new host terminal; diagnose whether a supported terminal is available; or provide an actionable plan when the requested terminal is unsupported.",
+      "path": "skills/terminal-opener/SKILL.md"
+    },
+    {
+      "id": "terminal-ops",
+      "name": "terminal-ops",
+      "category": "Networking, Homelab & Systems",
+      "description": "Evidence-first repo execution workflow for ECC. Use when the user wants a command run, a repo checked, a CI failure debugged, or a narrow fix pushed with exact proof of what was executed and verified.",
+      "path": "skills/terminal-ops/SKILL.md"
+    },
+    {
+      "id": "uncloud",
+      "name": "uncloud",
+      "category": "Containers & Orchestration",
+      "description": "Use when managing an Uncloud cluster \u2014 deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or managing machines and volumes with the `uc` CLI.",
+      "path": "skills/uncloud/SKILL.md"
+    },
+    {
+      "id": "verification-loop",
+      "name": "verification-loop",
+      "category": "Verification & Testing Gates",
+      "description": "Run a six-phase verification of a Claude Code session's work \u2014 build, type check, lint, tests with coverage, security grep, and diff review \u2014 then produce a PASS/FAIL verification report. Use when verifying work after completing a feature or refactor, before creating a PR, or when quality gates must pass.",
+      "path": "skills/verification-loop/SKILL.md"
+    }
+  ]
+}
