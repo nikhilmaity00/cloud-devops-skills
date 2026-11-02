@@ -8,7 +8,7 @@
 
 Modern AI coding agents (such as **Google Antigravity**, **Claude Code**, and **Cursor**) excel when guided by deterministic runbooks, structured checklists, and deep domain context.
 
-While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **35 core skills and 9 specialized agents** strictly relevant to:
+While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **57 core skills and 9 specialized agents** strictly relevant to:
 
 - 🐳 **Containers & Orchestration** (Docker, Kubernetes, lightweight clusters)
 - 🚀 **CI/CD & Deployment Patterns** (Zero-downtime, blue-green, canary verification, release flow)
@@ -16,7 +16,9 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 - 🌐 **Networking, Systems & Homelab** (BGP, IOS/Cisco, SSH automation, WireGuard, Pi-hole, VLANs)
 - 📈 **Observability, Reliability & SRE** (Grafana/SigNoz dashboards, p99 latency optimization, production audits)
 - 🗄️ **Database & Persistence Ops** (PostgreSQL DBA, Redis distributed caching/locks, zero-downtime migrations)
-- 🛡️ **Verification Gates** (Multi-stage test/lint/security verification loops, e2e smoke tests)
+- 🛡️ **Verification Gates** (Multi-stage test/lint/security verification loops, e2e smoke tests, gate runs)
+- 🛠️ **Software Engineering & Safe Refactoring** (Investigate-first, bounded diffs, surgical patching, safe schema/code migrations)
+- ⚡ **Token Optimization & LLM Efficiency** (Caveman terse modes, token sinks analysis, compressed context delegation)
 
 ---
 
@@ -103,6 +105,42 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`verification-loop`](skills/verification-loop/SKILL.md) | Six-phase verification pipeline: build, type check, lint, test coverage, security scan, and diff review. | Pre-commit/pre-merge validation, release gate enforcement |
 | [`e2e-testing`](skills/e2e-testing/SKILL.md) | Playwright E2E testing patterns, Page Object Model, and flaky test mitigation for CI/CD pipelines. | CI end-to-end testing, browser automation smoke tests |
 | [`automation-audit-ops`](skills/automation-audit-ops/SKILL.md) | Evidence-first inventory of background jobs, hooks, and connectors to identify overlaps or failures. | Cron job audit, automation cleanup, redundant job detection |
+| [`verify-and-stop`](skills/verify-and-stop/SKILL.md) | Prove existing work meets acceptance conditions without expanding scope. | Last-mile proof, validation-only tasks, completion checks |
+
+---
+
+### 8. Software Engineering & Safe Refactoring
+
+| Skill | Description | Key Triggers |
+| :--- | :--- | :--- |
+| [`investigate-first`](skills/investigate-first/SKILL.md) | Diagnose ambiguous failures before editing with evidence-ranked hypotheses. | Root cause analysis, unknown failures, intermittent regressions |
+| [`lean-build`](skills/lean-build/SKILL.md) | Build feature work with strict scope, repository reuse, and explicit stop conditions. | Feature slicing, minimal implementations, anti-overbuilding |
+| [`migration`](skills/migration/SKILL.md) | Implement reversible compatibility-safe transitions with rollback proofs. | Schema/data transitions, API breaking changes, protocol migrations |
+| [`safe-refactor`](skills/safe-refactor/SKILL.md) | Restructure code while preserving behavior through bracketed verification. | Code consolidation, modularization, extraction, debt cleanup |
+| [`surgical-patch`](skills/surgical-patch/SKILL.md) | Fix bugs and small behavior changes at the narrowest responsible layer. | Narrow bug fixes, regression prevention, minimal diffs |
+
+---
+
+### 9. Token Optimization & LLM Efficiency (Caveman Suite)
+
+| Skill | Description | Key Triggers |
+| :--- | :--- | :--- |
+| [`caveman`](skills/caveman/SKILL.md) | Terse caveman voice mode: answer first, fluff gone, preserving every technical fact. | `/caveman`, brevity mode, token reduction |
+| [`cavecrew`](skills/cavecrew/SKILL.md) | Delegate to specialized subagents (`cavecrew-investigator`, `builder`, `reviewer`) with compressed context. | Background subagents, large repo search without context bloat |
+| [`caveman-commit`](skills/caveman-commit/SKILL.md) | Generates crisp Conventional Commits messages compressed strictly to intent. | `/commit`, `/caveman-commit`, commit message drafting |
+| [`caveman-compress`](skills/caveman-compress/SKILL.md) | Compresses memory files (`CLAUDE.md`, todo lists) into caveman format to save tokens. | `/caveman-compress`, context trimming |
+| [`caveman-discover`](skills/caveman-discover/SKILL.md) | Identifies and labels all LLM workflows across the repo to break down model spend. | Workflow discovery, LLM cost attribution |
+| [`caveman-evidence-review`](skills/caveman-evidence-review/SKILL.md) | Read-only review of Caveman Cloud metrics: spend, Cave Score, traces, latency, and savings. | Spend review, token telemetry audit |
+| [`caveman-explore`](skills/caveman-explore/SKILL.md) | Read-only repo explorer returning only `path:line` citations to protect context window. | Cold-start codebase exploration, symbol search |
+| [`caveman-help`](skills/caveman-help/SKILL.md) | Quick-reference card for caveman commands, shortcuts, and modes. | `/caveman-help`, caveman command reference |
+| [`caveman-learn`](skills/caveman-learn/SKILL.md) | Identifies ranked token sinks and applies cost-saving optimizations with consent. | Token sink trimming, context offloading |
+| [`caveman-manage`](skills/caveman-manage/SKILL.md) | Inspects Caveman experiment lifecycles and manages safe rollouts and promotions. | Experiment lifecycle, rollout gates |
+| [`caveman-optimize`](skills/caveman-optimize/SKILL.md) | Converts optimization observations into candidate evaluations against baselines. | Prompt optimization, eval pairing |
+| [`caveman-review`](skills/caveman-review/SKILL.md) | Highly compressed code review — one line per finding with location, issue, and fix. | `/caveman-review`, PR diff review |
+| [`caveman-setup`](skills/caveman-setup/SKILL.md) | Wires repository requests through the Caveman gateway for zero-change observability. | LLM spend observability, gateway configuration |
+| [`caveman-stats`](skills/caveman-stats/SKILL.md) | Displays session token usage, cache read metrics, and mode attribution. | `/caveman-stats`, token usage inspection |
+| [`megacave`](skills/megacave/SKILL.md) | Classical Chinese (文言文) ultra-compact register for maximum screen brevity. | `/megacave`, `/caveman wenyan` |
+| [`ultracave`](skills/ultracave/SKILL.md) | Maximum compression mode: fragments, single words, zero redundant facts. | `/ultracave`, `/caveman ultra` |
 
 ---
 
