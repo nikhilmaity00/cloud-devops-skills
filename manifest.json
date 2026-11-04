@@ -1,6 +1,6 @@
 {
   "name": "cloud-devops-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Curated Cloud, DevOps, SRE, and Infrastructure skills trimmed and optimized from ECC for Antigravity, Claude Code, and agentic workflows.",
   "categories": [
     "Containers & Orchestration",
@@ -11,7 +11,8 @@
     "Database & Persistence Operations",
     "Verification & Testing Gates",
     "Software Engineering & Safe Refactoring",
-    "Token Optimization & LLM Efficiency"
+    "Token Optimization & LLM Efficiency",
+    "UI & Mobile Design Systems"
   ],
   "skills": [
     {
@@ -328,6 +329,13 @@
       "category": "Observability, Reliability & SRE",
       "description": "Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and \"what breaks in prod?\" questions without sending repo data to an external audit service. Use when auditing production readiness before launch, after a merge, or when asked what breaks in prod.",
       "path": "skills/production-audit/SKILL.md"
+    },
+    {
+      "id": "pulsarnav-ui",
+      "name": "pulsarnav-ui",
+      "category": "UI & Mobile Design Systems",
+      "description": "PulsarNav dark-theme Android UI design system. Use when building new Android apps that should match the PulsarNav visual language — dark background, multi-theme accent colors, card-based layout, ViewBinding, Material3 components, all-caps section labels, and functional-only copy with zero decorative fluff. Extracted from a vibe-coded Android app, so patterns are pragmatic rather than aspirational.",
+      "path": "skills/pulsarnav-ui/SKILL.md"
     },
     {
       "id": "redis-patterns",

@@ -8,7 +8,7 @@
 
 Modern AI coding agents (such as **Google Antigravity**, **Claude Code**, and **Cursor**) excel when guided by deterministic runbooks, structured checklists, and deep domain context.
 
-While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **57 core skills and 9 specialized agents** strictly relevant to:
+While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **58 core skills and 9 specialized agents** strictly relevant to:
 
 - 🐳 **Containers & Orchestration** (Docker, Kubernetes, lightweight clusters)
 - 🚀 **CI/CD & Deployment Patterns** (Zero-downtime, blue-green, canary verification, release flow)
@@ -19,6 +19,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 - 🛡️ **Verification Gates** (Multi-stage test/lint/security verification loops, e2e smoke tests, gate runs)
 - 🛠️ **Software Engineering & Safe Refactoring** (Investigate-first, bounded diffs, surgical patching, safe schema/code migrations)
 - ⚡ **Token Optimization & LLM Efficiency** (Caveman terse modes, token sinks analysis, compressed context delegation)
+- 🎨 **UI & Mobile Design Systems** (PulsarNav dark-theme design language, Material3 components, card layouts)
 
 ---
 
@@ -141,6 +142,14 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`caveman-stats`](skills/caveman-stats/SKILL.md) | Displays session token usage, cache read metrics, and mode attribution. | `/caveman-stats`, token usage inspection |
 | [`megacave`](skills/megacave/SKILL.md) | Classical Chinese (文言文) ultra-compact register for maximum screen brevity. | `/megacave`, `/caveman wenyan` |
 | [`ultracave`](skills/ultracave/SKILL.md) | Maximum compression mode: fragments, single words, zero redundant facts. | `/ultracave`, `/caveman ultra` |
+
+---
+
+### 10. UI & Mobile Design Systems
+
+| Skill | Description | Key Triggers |
+| :--- | :--- | :--- |
+| [`pulsarnav-ui`](skills/pulsarnav-ui/SKILL.md) | PulsarNav dark-theme Android UI design system: card-based layouts, ViewBinding, Material3, and clean telemetry UI. | Android UI design, dark-theme layout, PulsarNav styling |
 
 ---
 
