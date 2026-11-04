@@ -8,7 +8,7 @@
 
 Modern AI coding agents (such as **Google Antigravity**, **Claude Code**, and **Cursor**) excel when guided by deterministic runbooks, structured checklists, and deep domain context.
 
-While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **58 core skills and 9 specialized agents** strictly relevant to:
+While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **65 core skills and 9 specialized agents** strictly relevant to:
 
 - 🐳 **Containers & Orchestration** (Docker, Kubernetes, lightweight clusters)
 - 🚀 **CI/CD & Deployment Patterns** (Zero-downtime, blue-green, canary verification, release flow)
@@ -43,6 +43,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`canary-watch`](skills/canary-watch/SKILL.md) | Automated post-deployment smoke verification: HTTP endpoints, SSE streams, assets, and error spikes. | Post-deploy checks, release verification, smoke tests |
 | [`github-ops`](skills/github-ops/SKILL.md) | Repository operations via GitHub CLI (`gh`): CI status monitoring, PR review pipelines, releases, issue triage. | GitHub Actions automation, PR lifecycle, release drafting |
 | [`git-workflow`](skills/git-workflow/SKILL.md) | Git branching models, conventional commits, history cleanup, merge vs rebase, and conflict resolution. | Branch strategy, release tagging, squash/rebase workflows |
+| [`wizard`](skills/wizard/SKILL.md) | Generates interactive bash wizards with consistent terminal UX for manual setup, CI secrets, and cutovers. | Manual cloud setup, CI secret generation, migrations |
 
 ---
 
@@ -107,6 +108,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`e2e-testing`](skills/e2e-testing/SKILL.md) | Playwright E2E testing patterns, Page Object Model, and flaky test mitigation for CI/CD pipelines. | CI end-to-end testing, browser automation smoke tests |
 | [`automation-audit-ops`](skills/automation-audit-ops/SKILL.md) | Evidence-first inventory of background jobs, hooks, and connectors to identify overlaps or failures. | Cron job audit, automation cleanup, redundant job detection |
 | [`verify-and-stop`](skills/verify-and-stop/SKILL.md) | Prove existing work meets acceptance conditions without expanding scope. | Last-mile proof, validation-only tasks, completion checks |
+| [`tdd`](skills/tdd/SKILL.md) | Test-driven development loop: red-green-refactor at public seams, vertical tracer-bullet slices. | Test-driven dev, red-green loop, unit/integration testing |
 
 ---
 
@@ -119,6 +121,8 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`migration`](skills/migration/SKILL.md) | Implement reversible compatibility-safe transitions with rollback proofs. | Schema/data transitions, API breaking changes, protocol migrations |
 | [`safe-refactor`](skills/safe-refactor/SKILL.md) | Restructure code while preserving behavior through bracketed verification. | Code consolidation, modularization, extraction, debt cleanup |
 | [`surgical-patch`](skills/surgical-patch/SKILL.md) | Fix bugs and small behavior changes at the narrowest responsible layer. | Narrow bug fixes, regression prevention, minimal diffs |
+| [`codebase-design`](skills/codebase-design/SKILL.md) | Design deep modules with small interfaces, clean seams, and high caller leverage. | Architecture design, module interfaces, seam placement |
+| [`grilling`](skills/grilling/SKILL.md) | Relentlessly stress-test plans and architectures using a branching design tree with recommended options. | `/grilling`, `/grill-me`, plan stress-testing, design review |
 
 ---
 
@@ -142,6 +146,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`caveman-stats`](skills/caveman-stats/SKILL.md) | Displays session token usage, cache read metrics, and mode attribution. | `/caveman-stats`, token usage inspection |
 | [`megacave`](skills/megacave/SKILL.md) | Classical Chinese (文言文) ultra-compact register for maximum screen brevity. | `/megacave`, `/caveman wenyan` |
 | [`ultracave`](skills/ultracave/SKILL.md) | Maximum compression mode: fragments, single words, zero redundant facts. | `/ultracave`, `/caveman ultra` |
+| [`writing-for-agents`](skills/writing-for-agents/SKILL.md) | Authoring runbook for agent skills: context pointers, progressive disclosure, and completion criteria. | Writing skills, custom instructions, agent optimization |
 
 ---
 
@@ -150,6 +155,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | Skill | Description | Key Triggers |
 | :--- | :--- | :--- |
 | [`pulsarnav-ui`](skills/pulsarnav-ui/SKILL.md) | PulsarNav dark-theme Android UI design system: card-based layouts, ViewBinding, Material3, and clean telemetry UI. | Android UI design, dark-theme layout, PulsarNav styling |
+| [`prototype`](skills/prototype/SKILL.md) | Rapid throwaway prototyping: 3 switchable UI variants on one route or interactive logic state-machine player. | UI prototyping, layout exploration, state machine verification |
 
 ---
 

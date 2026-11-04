@@ -1,6 +1,6 @@
 {
   "name": "cloud-devops-skills",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Curated Cloud, DevOps, SRE, and Infrastructure skills trimmed and optimized from ECC for Antigravity, Claude Code, and agentic workflows.",
   "categories": [
     "Containers & Orchestration",
@@ -142,6 +142,13 @@
       "path": "skills/cloud-infrastructure-security/SKILL.md"
     },
     {
+      "id": "codebase-design",
+      "name": "codebase-design",
+      "category": "Software Engineering & Safe Refactoring",
+      "description": "Shared vocabulary for designing deep modules. Use when designing a module's interface, finding deepening opportunities, deciding where a seam goes, and making code testable and AI-navigable.",
+      "path": "skills/codebase-design/SKILL.md"
+    },
+    {
       "id": "dashboard-builder",
       "name": "dashboard-builder",
       "category": "Observability, Reliability & SRE",
@@ -210,6 +217,20 @@
       "category": "CI/CD & Deployment Strategies",
       "description": "GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user wants to manage GitHub issues, PRs, CI status, releases, contributors, stale items, or any GitHub operational task beyond simple git commands.",
       "path": "skills/github-ops/SKILL.md"
+    },
+    {
+      "id": "grill-me",
+      "name": "grill-me",
+      "category": "Software Engineering & Safe Refactoring",
+      "description": "A relentless interview to sharpen a plan, architecture, or design before implementation (alias to grilling).",
+      "path": "skills/grill-me/SKILL.md"
+    },
+    {
+      "id": "grilling",
+      "name": "grilling",
+      "category": "Software Engineering & Safe Refactoring",
+      "description": "Relentlessly interview the user to stress-test a plan, decision, or architecture using a branching design tree with recommended options.",
+      "path": "skills/grilling/SKILL.md"
     },
     {
       "id": "homelab-network-readiness",
@@ -331,6 +352,13 @@
       "path": "skills/production-audit/SKILL.md"
     },
     {
+      "id": "prototype",
+      "name": "prototype",
+      "category": "UI & Mobile Design Systems",
+      "description": "Build throwaway prototypes to answer design questions: generate switchable UI variants on a single route, or interactive logic state-machine walkthroughs.",
+      "path": "skills/prototype/SKILL.md"
+    },
+    {
       "id": "pulsarnav-ui",
       "name": "pulsarnav-ui",
       "category": "UI & Mobile Design Systems",
@@ -380,6 +408,13 @@
       "path": "skills/surgical-patch/SKILL.md"
     },
     {
+      "id": "tdd",
+      "name": "tdd",
+      "category": "Verification & Testing Gates",
+      "description": "Test-driven development (TDD): red-green-refactor loop focused on public interface seams, vertical tracer-bullet slices, and anti-pattern avoidance.",
+      "path": "skills/tdd/SKILL.md"
+    },
+    {
       "id": "terminal-opener",
       "name": "terminal-opener",
       "category": "Networking, Homelab & Systems",
@@ -420,6 +455,20 @@
       "category": "Verification & Testing Gates",
       "description": "Prove existing work meets acceptance conditions without expanding scope. Use for validation-only tasks, completion checks, focused gate runs, and last-mile proof.",
       "path": "skills/verify-and-stop/SKILL.md"
+    },
+    {
+      "id": "wizard",
+      "name": "wizard",
+      "category": "CI/CD & Deployment Strategies",
+      "description": "Generate an interactive terminal bash wizard (with template.sh) that walks a human through manual tasks: cloud dashboard navigation, credential/secret provisioning, and cutovers.",
+      "path": "skills/wizard/SKILL.md"
+    },
+    {
+      "id": "writing-for-agents",
+      "name": "writing-for-agents",
+      "category": "Token Optimization & LLM Efficiency",
+      "description": "Authoring guide for agent skills and instructions: context pointers, progressive disclosure, context load vs cognitive load, and verifiable completion criteria.",
+      "path": "skills/writing-for-agents/SKILL.md"
     }
   ]
 }
