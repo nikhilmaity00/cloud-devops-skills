@@ -1,6 +1,6 @@
 {
   "name": "cloud-devops-skills",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Curated Cloud, DevOps, SRE, and Infrastructure skills trimmed and optimized from ECC for Antigravity, Claude Code, and agentic workflows.",
   "categories": [
     "Containers & Orchestration",
@@ -336,6 +336,13 @@
       "category": "Networking, Homelab & Systems",
       "description": "Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. Use when an interface shows errors, drops, CRCs, flapping, or a duplex or speed mismatch.",
       "path": "skills/network-interface-health/SKILL.md"
+    },
+    {
+      "id": "open-design-agent-kit",
+      "name": "open-design-agent-kit",
+      "category": "UI & Mobile Design Systems",
+      "description": "Comprehensive design agent toolkit for UI/UX architecture, layout prototyping, mobile/web component design systems, and token generation. Use whenever creating, styling, redesigning, or auditing app interfaces.",
+      "path": "skills/open-design-agent-kit/SKILL.md"
     },
     {
       "id": "postgres-patterns",

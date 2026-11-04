@@ -8,7 +8,7 @@
 
 Modern AI coding agents (such as **Google Antigravity**, **Claude Code**, and **Cursor**) excel when guided by deterministic runbooks, structured checklists, and deep domain context.
 
-While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **65 core skills and 9 specialized agents** strictly relevant to:
+While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **66 core skills and 9 specialized agents** strictly relevant to:
 
 - 🐳 **Containers & Orchestration** (Docker, Kubernetes, lightweight clusters)
 - 🚀 **CI/CD & Deployment Patterns** (Zero-downtime, blue-green, canary verification, release flow)

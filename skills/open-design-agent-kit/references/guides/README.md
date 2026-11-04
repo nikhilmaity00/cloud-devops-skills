@@ -1,0 +1,42 @@
+# Guides
+
+Each guide covers one task for every host. Where a host differs, the guide says so in a callout:
+
+> **In VS Code:** differences for Copilot Chat in VS Code.
+
+> **In Claude Code / Codex:** differences for MCP-based agents.
+
+> **From the CLI:** the scripted equivalent, where there is one.
+
+- [Generate a design](generate-a-design.md)
+- [App screens and flows](app-screens.md)
+- [Design from your app](design-from-your-app.md)
+- [Audit a website](site-audit.md)
+- [Redesign a website](redesign-a-website.md)
+- [Explore design directions](explore-directions.md)
+- [Turn a document into a deck](deck-from-a-document.md)
+- [Diagrams of your code](diagrams.md)
+- [3D objects and product shots](3d-objects.md)
+- [Engineering documents](engineering-docs.md)
+- [Design systems](design-systems.md)
+- [Remix and the gallery](remix-and-gallery.md)
+- [Community designs](community-designs.md)
+- [Preview, comment and edit](preview-comments-edit.md) (VS Code)
+- [Browser preview and comments](browser-preview.md) (Claude Code, Codex, Cursor)
+- [Inline preview in Claude Desktop Chat](inline-preview.md)
+- [Figma](figma.md)
+- [Promote to app code](promote-to-app-code.md)
+- [Works with Impeccable](impeccable.md)
+- [Social media posts](social-posts.md)
+- [HTML email](html-email.md)
+- [Paste into WeChat, Notion and newsletters](paste-html.md)
+- [Posters and print](posters.md)
+- [Sell what you make](sell-what-you-make.md)
+- [Run a campaign](campaigns.md)
+- [YouTube videos](youtube-video.md)
+- [Export images](export-images.md)
+- [Export decks and PDFs](export-decks.md)
+- [Export animations](export-animations.md)
+- [Share and publish](share-and-publish.md)
+- [Recurring design jobs](recurring-jobs.md)
+- [Connect other services](integrations.md)
