@@ -1,6 +1,6 @@
 {
   "name": "cloud-devops-skills",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Curated Cloud, DevOps, SRE, and Infrastructure skills trimmed and optimized from ECC for Antigravity, Claude Code, and agentic workflows.",
   "categories": [
     "Containers & Orchestration",
@@ -12,7 +12,8 @@
     "Verification & Testing Gates",
     "Software Engineering & Safe Refactoring",
     "Token Optimization & LLM Efficiency",
-    "UI & Mobile Design Systems"
+    "UI & Mobile Design Systems",
+    "Architecture Design & Multi-Agent Review"
   ],
   "skills": [
     {
@@ -182,6 +183,55 @@
       "category": "Verification & Testing Gates",
       "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring page objects, or fixing flaky E2E runs in CI.",
       "path": "skills/e2e-testing/SKILL.md"
+    },
+    {
+      "id": "egm-bootstrap",
+      "name": "egm-bootstrap",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "Bootstrap directory README.md files across a repository subtree, verifying architectural contracts (interfaces, invariants, side effects).",
+      "path": "skills/egm-bootstrap/SKILL.md"
+    },
+    {
+      "id": "egm-brainstorm",
+      "name": "egm-brainstorm",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "Interactive ideation and brainstorming skill for the Elephant & Goldfish Model (EGM). Helps turn concepts into structured hypotheses via clarifying questions, review, and iterative refinement.",
+      "path": "skills/egm-brainstorm/SKILL.md"
+    },
+    {
+      "id": "egm-draft",
+      "name": "egm-draft",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "Drafts a technical design document section-by-section using the concepts brief from egm-brainstorm or user notes. Guides requirements, architecture, and tradeoffs.",
+      "path": "skills/egm-draft/SKILL.md"
+    },
+    {
+      "id": "egm-drift-report",
+      "name": "egm-drift-report",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "Runs drift detection on design documents to check for document and code consistency across all designs or READMEs in a directory.",
+      "path": "skills/egm-drift-report/SKILL.md"
+    },
+    {
+      "id": "egm-resolve",
+      "name": "egm-resolve",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "The Elephant resolution skill: ingests flat deficiency reports from concurrent Goldfish reviewers, applies automated fixes, and handles negotiation/re-sync checkpoints.",
+      "path": "skills/egm-resolve/SKILL.md"
+    },
+    {
+      "id": "egm-review",
+      "name": "egm-review",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "Orchestrates the EGM Goldfish Review Protocol for design documents across five review phases: Zoom Out, Comprehension, Design Critique, Intermediate Zoom Out, and Implementation Readiness.",
+      "path": "skills/egm-review/SKILL.md"
+    },
+    {
+      "id": "egm-review-loop",
+      "name": "egm-review-loop",
+      "category": "Architecture Design & Multi-Agent Review",
+      "description": "Executes the Antagonistic-Review process from EGM via an automated multi-agent review loop to audit documents against qualitative standards and structural templates.",
+      "path": "skills/egm-review-loop/SKILL.md"
     },
     {
       "id": "enterprise-agent-ops",

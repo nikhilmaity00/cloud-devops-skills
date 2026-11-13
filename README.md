@@ -8,7 +8,7 @@
 
 Modern AI coding agents (such as **Google Antigravity**, **Claude Code**, and **Cursor**) excel when guided by deterministic runbooks, structured checklists, and deep domain context.
 
-While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **66 core skills and 9 specialized agents** strictly relevant to:
+While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **73 core skills and 19 specialized agents** strictly relevant to:
 
 - 🐳 **Containers & Orchestration** (Docker, Kubernetes, lightweight clusters)
 - 🚀 **CI/CD & Deployment Patterns** (Zero-downtime, blue-green, canary verification, release flow)
@@ -20,6 +20,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 - 🛠️ **Software Engineering & Safe Refactoring** (Investigate-first, bounded diffs, surgical patching, safe schema/code migrations)
 - ⚡ **Token Optimization & LLM Efficiency** (Caveman terse modes, token sinks analysis, compressed context delegation)
 - 🎨 **UI & Mobile Design Systems** (PulsarNav dark-theme design language, Material3 components, card layouts)
+- 🐘 **Architecture Design & Multi-Agent Review** (Elephant-Goldfish Model context drafting, isolated adversarial Goldfish reviewers, codebase drift detection)
 
 ---
 
@@ -159,6 +160,20 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 
 ---
 
+### 11. Architecture Design & Multi-Agent Review (Elephant-Goldfish Model / EGM)
+
+| Skill | Description | Key Triggers |
+| :--- | :--- | :--- |
+| [`egm-bootstrap`](skills/egm-bootstrap/SKILL.md) | Bootstrap directory README.md files across a repository subtree with strict architectural contracts. | `/egm-bootstrap`, generate directory READMEs, codebase contracts |
+| [`egm-brainstorm`](skills/egm-brainstorm/SKILL.md) | Multi-lens ideation turning half-baked concepts into structured hypotheses with clarifying questions. | `/egm-brainstorm`, feature ideation, design exploration |
+| [`egm-draft`](skills/egm-draft/SKILL.md) | Section-by-section technical design document drafting from brainstorming briefs or notes. | `/egm-draft`, design document authoring, specification drafting |
+| [`egm-drift-report`](skills/egm-drift-report/SKILL.md) | Drift detection comparing design specifications and directory READMEs against live code. | `/egm-drift-report`, architecture drift audit, spec-code mismatch |
+| [`egm-resolve`](skills/egm-resolve/SKILL.md) | Ingests flat deficiency reports from concurrent Goldfish reviewers and applies automated fixes. | `/egm-resolve`, apply reviewer fixes, resolve design feedback |
+| [`egm-review`](skills/egm-review/SKILL.md) | Orchestrates the 5-phase EGM Goldfish Review Protocol for design documents and technical plans. | `/egm-review`, design document review, plan stress-testing |
+| [`egm-review-loop`](skills/egm-review-loop/SKILL.md) | Automated multi-agent review loop auditing documents against qualitative standards and structural templates. | `/egm-review-loop`, document audit, template compliance |
+
+---
+
 ## Included DevOps Specialist Agents
 
 Located in [`agents/`](agents/):
@@ -172,6 +187,16 @@ Located in [`agents/`](agents/):
 7. **`performance-optimizer.md`**: Investigates p99 latencies, CPU/memory profiles, and cache hit rates.
 8. **`build-error-resolver.md`**: Analyzes compiler, dependency, and linker errors in CI pipelines.
 9. **`e2e-runner.md`**: Orchestrates end-to-end smoke test execution and artifact collection.
+10. **`bootstrap_orchestrator.md`** (`egm-bootstrap-orchestrator`): Orchestrates directory README documentation and partitions repository subtrees.
+11. **`codebase_details.md`** (`egm-codebase-details`): Pedantic technical auditor verifying documentation against codebase implementation.
+12. **`comprehension.md`** (`egm-comprehension`): Naive reader persona auditing documents with zero assumed institutional knowledge.
+13. **`design_critic.md`** (`egm-design`): Hostile design critic focused on system architecture, scalability, infrastructure economics, and unmitigated risks.
+14. **`implementation_readiness.md`** (`egm-implementation-readiness`): Pragmatic tech lead verifying implementation plans contain unambiguous execution instructions.
+15. **`inventive_catalyst.md`** (`egm-inventive-catalyst`): Problem-solving persona applying TRIZ principles to eliminate system-level contradictions without compromise.
+16. **`structural.md`** (`egm-structural`): Layout validator focused on symmetry, heading hierarchy, formatting, and template compliance.
+17. **`style.md`** (`egm-style`): Technical copy editor focused on clarity, precision, brevity, objective framing, and removing fluff.
+18. **`synthesizer.md`** (`egm-synthesizer`): Intermediate compiler and aggregator coordinating parallel Goldfish reviewers and compiling deliverable reports.
+19. **`zoom_out.md`** (`egm-zoom-out`): Skeptical architect persona focused on high-altitude simplicity, minimalism, YAGNI, and codebase reuse.
 
 ---
 
