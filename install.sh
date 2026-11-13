@@ -60,7 +60,7 @@ DEST_DIR=""
 case "$TARGET" in
   antigravity)
     if [[ "$SCOPE" == "global" ]]; then
-      DEST_DIR="$HOME/.gemini/antigravity-cli/skills"
+      DEST_DIR="$HOME/.gemini/config/skills"
     else
       DEST_DIR="$PROJECT_DIR/.agents/skills"
     fi
@@ -100,9 +100,9 @@ for skill_dir in "$SCRIPT_DIR"/skills/*; do
     skill_name="$(basename "$skill_dir")"
     rm -rf "${DEST_DIR:?}/$skill_name"
     cp -r "$skill_dir" "$DEST_DIR/"
-    ((COUNT++))
+    COUNT=$((COUNT + 1))
   fi
 done
 
 echo "Successfully installed $COUNT skills to $DEST_DIR"
-EOF
+
