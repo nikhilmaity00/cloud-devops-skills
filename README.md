@@ -124,6 +124,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`surgical-patch`](skills/surgical-patch/SKILL.md) | Fix bugs and small behavior changes at the narrowest responsible layer. | Narrow bug fixes, regression prevention, minimal diffs |
 | [`codebase-design`](skills/codebase-design/SKILL.md) | Design deep modules with small interfaces, clean seams, and high caller leverage. | Architecture design, module interfaces, seam placement |
 | [`grilling`](skills/grilling/SKILL.md) | Relentlessly stress-test plans and architectures using a branching design tree with recommended options. | `/grilling`, `/grill-me`, plan stress-testing, design review |
+| [`grill-me`](skills/grill-me/SKILL.md) | A relentless interview to sharpen a plan, architecture, or design before implementation (alias to grilling). | `/grill-me`, plan interview, design stress-testing |
 | [`project-blueprint`](skills/project-blueprint/SKILL.md) | Structured project initialization: plans and maintains the 6 core docs (PRD, ARCHITECTURE, RULES, DESIGN, TASKS, MEMORY). | Project planning, scaffolding docs, PRD, architecture, tasks |
 
 ---
@@ -158,6 +159,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | :--- | :--- | :--- |
 | [`pulsarnav-ui`](skills/pulsarnav-ui/SKILL.md) | PulsarNav dark-theme Android UI design system: card-based layouts, ViewBinding, Material3, and clean telemetry UI. | Android UI design, dark-theme layout, PulsarNav styling |
 | [`prototype`](skills/prototype/SKILL.md) | Rapid throwaway prototyping: 3 switchable UI variants on one route or interactive logic state-machine player. | UI prototyping, layout exploration, state machine verification |
+| [`open-design-agent-kit`](skills/open-design-agent-kit/SKILL.md) | Comprehensive design agent toolkit: UI/UX architecture, layout prototyping, mobile/web design systems, and token generation. | App design, UI styling, frontend components, design systems |
 
 ---
 
