@@ -409,6 +409,13 @@
       "path": "skills/production-audit/SKILL.md"
     },
     {
+      "id": "project-blueprint",
+      "name": "project-blueprint",
+      "category": "Software Engineering & Safe Refactoring",
+      "description": "Structured project initialization and documentation framework. Generates and maintains the 6 foundational project documents (PRD.md, ARCHITECTURE.md, RULES.md, DESIGN.md, TASKS.md, MEMORY.md) in a planned, phased sequence before coding.",
+      "path": "skills/project-blueprint/SKILL.md"
+    },
+    {
       "id": "prototype",
       "name": "prototype",
       "category": "UI & Mobile Design Systems",

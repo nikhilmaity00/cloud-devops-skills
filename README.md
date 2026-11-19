@@ -8,7 +8,7 @@
 
 Modern AI coding agents (such as **Google Antigravity**, **Claude Code**, and **Cursor**) excel when guided by deterministic runbooks, structured checklists, and deep domain context.
 
-While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **73 core skills and 19 specialized agents** strictly relevant to:
+While the upstream ECC project contains nearly 300 general-purpose skills (spanning mobile, frontend, social media, ecommerce, legal, etc.), this repository isolates and refines the **74 core skills and 19 specialized agents** strictly relevant to:
 
 - 🐳 **Containers & Orchestration** (Docker, Kubernetes, lightweight clusters)
 - 🚀 **CI/CD & Deployment Patterns** (Zero-downtime, blue-green, canary verification, release flow)
@@ -124,6 +124,7 @@ While the upstream ECC project contains nearly 300 general-purpose skills (spann
 | [`surgical-patch`](skills/surgical-patch/SKILL.md) | Fix bugs and small behavior changes at the narrowest responsible layer. | Narrow bug fixes, regression prevention, minimal diffs |
 | [`codebase-design`](skills/codebase-design/SKILL.md) | Design deep modules with small interfaces, clean seams, and high caller leverage. | Architecture design, module interfaces, seam placement |
 | [`grilling`](skills/grilling/SKILL.md) | Relentlessly stress-test plans and architectures using a branching design tree with recommended options. | `/grilling`, `/grill-me`, plan stress-testing, design review |
+| [`project-blueprint`](skills/project-blueprint/SKILL.md) | Structured project initialization: plans and maintains the 6 core docs (PRD, ARCHITECTURE, RULES, DESIGN, TASKS, MEMORY). | Project planning, scaffolding docs, PRD, architecture, tasks |
 
 ---
 
