@@ -1,6 +1,6 @@
 {
   "name": "cloud-devops-skills",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Curated Cloud, DevOps, SRE, and Infrastructure skills trimmed and optimized from ECC for Antigravity, Claude Code, and agentic workflows.",
   "categories": [
     "Containers & Orchestration",
@@ -246,6 +246,13 @@
       "category": "Observability, Reliability & SRE",
       "description": "Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages. Use when designing error types, retries, circuit breakers, or user-facing failure messages in TypeScript, Python, or Go.",
       "path": "skills/error-handling/SKILL.md"
+    },
+    {
+      "id": "excel-master",
+      "name": "excel-master",
+      "category": "Software Engineering & Safe Refactoring",
+      "description": "Professional spreadsheet design, formatting, and generation following Morgan Stanley / Wall Street standards. Pure openpyxl, zero COM/Excel desktop dependency. Supports beautify and make modes with 12 curated color palettes.",
+      "path": "skills/excel-master/SKILL.md"
     },
     {
       "id": "flox-environments",
